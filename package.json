@@ -1,6 +1,6 @@
 {
   "name": "yaoqi-package-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "anyaoqi/package-demo",
   "main": "index.js",
   "scripts": {
