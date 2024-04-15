@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/anyaoqi/package-demo#readme",
   "publishConfig": {
-    "@anyaoqi:registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   }
 }
