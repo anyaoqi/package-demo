@@ -1,6 +1,6 @@
 {
   "name": "@anyaoqi/package-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "anyaoqi/package-demo",
   "main": "index.js",
   "scripts": {
