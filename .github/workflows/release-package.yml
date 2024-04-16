@@ -16,21 +16,21 @@ jobs:
         with:
           # 选择要使用的 node 版本
           node-version: 18
-          # 缓存 pnpm 依赖
-          cache: pnpm
-          
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+          # 缓存 npm 依赖
+          cache: npm
+
+      - name: Setup npm
+        uses: npm/action-setup@v2
         with:
-          # 选择要使用的 pnpm 版本
+          # 选择要使用的 npm 版本
           version: 8
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
 
       # 运行构建脚本
       - name: build
-        run: pnpm run build
+        run: npm run build
 
   publish-gpr:
     needs: build
