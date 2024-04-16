@@ -1,6 +1,6 @@
 {
   "name": "yaoqi-package-demo",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "anyaoqi/package-demo",
   "main": "./dist/hello-text.umd.js",
   "scripts": {
